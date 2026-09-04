@@ -4,7 +4,7 @@ Independent research project analyzing Bitcoin price behavior through the lens o
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project explores whether volatility (via DVOL) can be used as a leading sentiment indicator for Bitcoin price direction, and whether a rules-based trading strategy built around it can be made consistently profitable through careful risk management.
 
@@ -15,7 +15,7 @@ The work is split into two components:
 
 ---
 
-## 🔧 Methodology
+## Methodology
 
 ### Data Sources
 - **Deribit Volatility Index (DVOL)** — daily BTC volatility index, used as the core sentiment driver
@@ -36,7 +36,7 @@ The work is split into two components:
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Stage | Total Net Profit (simulated) |
 |---|---|
@@ -63,7 +63,7 @@ The work is split into two components:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 **Leverage Optimization** — total net profit peaks around 7x leverage before declining sharply as amplified volatility triggers more stop-losses
 ![Leverage Optimization](charts/leverage_optimization.png)
@@ -82,7 +82,7 @@ The work is split into two components:
 
 ---
 
-## 📡 Live Prediction Tracker
+## Live Prediction Tracker
 
 A companion Google Sheet tracks the DVOL-based signal on a live, ongoing basis:
 - Daily DVOL, sentiment signal, and next-day verdict (RIGHT/WRONG), logged continuously
@@ -91,7 +91,7 @@ A companion Google Sheet tracks the DVOL-based signal on a live, ongoing basis:
 
 ---
 
-## 🛠️ Tools & Stack
+## Tools & Stack
 
 - **Python** (Google Colab) — data processing, simulation, and backtesting logic
 - **Excel / Google Sheets** — data tracking, live signal verification, and output storage
@@ -99,7 +99,7 @@ A companion Google Sheet tracks the DVOL-based signal on a live, ongoing basis:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 dvol-adaptive-btc-trading-strategy/
@@ -122,7 +122,7 @@ dvol-adaptive-btc-trading-strategy/
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Refine trailing stop-loss logic (current implementation underperformed)
 - Explore additional volatility/sentiment indicators, including ML-based signal generation
